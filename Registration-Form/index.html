@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main">
+        <h1>Registration</h1>
+        <hr>
+        <form action="./success_page.html">
+            <div id="cont1">
+                <label for="fname">First Name</label><br>
+                <input type="text" name="First_name" id="fname" placeholder="Emmanuel" class="input" required><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" name="Email" id="email" class="input" placeholder="davynuel@gmail.com" required><br>
+
+                <label for="pwd">Password</label><br>
+                <input type="password" name="Password" id="pwd" class="input" placeholder="heemenkon" required><br>
+
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" name="date_of_birth" id="dob" class="input" required><br>
+
+                <label for="sex"><u>Gender</u></label><br>
+                Male <input type="radio" name="gender" id="sex" value="Male" required> &nbsp; &nbsp; &nbsp;
+                Female <input type="radio" name="gender" id="sex" value="Female"> &nbsp; &nbsp; &nbsp;
+                Others <input type="radio" name="gender" id="sex" value="Other">
+
+            </div>
+
+            <div id="cont2">
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="Last_name" id="lname" class="input" placeholder="Chiabuotu" required><br>
+
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" name="Phone_Number" id="phone" class="input" placeholder="09073684150" required><br>
+
+                <label for="Cpwd">Confirm Password</label><br>
+                <input type="password" name="Confirm Password" id="Cpwd" class="input" placeholder="heemenkon" required><br>
+
+                <label for="color">Favourite Color</label><br>
+                <input type="color" name="color" id="color" class="input" required><br>
+                
+            </div>
+
+           
+        </form>
+        <div id="cont3">
+            <input type="submit" name="Register" value="Register" id="submit">
+        </div>
+
+        <p>Already have an Account? click <a href="Log_in.html">here</a></p>
+    </section>
+    
+</body>
+
+</html>

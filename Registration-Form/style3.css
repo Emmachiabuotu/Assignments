@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(140deg, rgb(24, 21, 21), rgb(138, 4, 26));
+}
+
+section {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 100vh;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgb(94, 54, 54);
+}
+
+div#message {
+    width: 500px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    margin-top: 40vh;
+    font-size: 20px;
+    text-align: justify;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-left: 78px;
+    border-radius: 50px;
+    background-color: rgb(224, 221, 17);
+    color: black;
+    font-weight: 800;
+    border-style: none;
+} 

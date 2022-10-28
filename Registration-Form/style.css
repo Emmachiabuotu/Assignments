@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    /* height: 150%; */
+    justify-content: center; 
+    align-items: center;
+    background: linear-gradient(140deg, rgb(24, 21, 21), rgb(138, 4, 26));
+}
+
+section#main {
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;  
+    line-height: 35px;
+    background: linear-gradient(140deg,  rgb(138, 4, 26), rgb(24, 21, 21));
+    border-radius: 20px;
+}
+
+#cont1 {
+    border: px solid black;
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+}
+
+#cont2 {
+    border: px solid black;
+    width: 400px;
+    float: left;
+}
+
+#cont3 {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 5px;
+    border-style: none;
+    color: black;
+}
+
+#submit {
+    width: 400px;
+    height: 40px;
+    border-radius: 1px;
+    border-style: none;
+    font-size: 17px;
+    background: linear-gradient(100deg, rgb(24, 21, 21), rgb(138, 4, 26));
+    border-radius: 1px;
+}
+
+h1{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+hr{
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
+a{
+    color: blue;
+}
+
+

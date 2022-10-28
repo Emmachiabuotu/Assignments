@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(140deg, rgb(24, 21, 21), rgb(138, 4, 26));
+}
+
+#maincontainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 400px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    border: px solid white;
+    background-color: transparent;
+}
+
+.container2 {
+    color: lightgrey;
+}
+
+div input {
+    width: 290px;
+    border: 0px solid white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    line-height: 38px;
+    padding-left: 7px;
+    background-color: #ffffff;
+}
+
+#check {
+    width: auto;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 10px;
+
+}
+
+#signin {
+    width: 290px;
+    background-color: rgb(255, 0, 0);
+    color: lightgrey;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+#checkbox {
+    border: 1px solid white;
+    width: auto;
+    float: left;
+    margin: 0px 2px;
+    width: 10px;
+}
+
+a#special {
+    width: auto;
+    float: right;
+    color: lightgray;
+    font-size: 12px;
+}
+
+a#special2 {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a#special3 {
+    font-weight: bolder;
+}
