@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+html, body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+
+    }
+
+main {
+  width: auto;
+  height: 100vh;
+    
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 74%);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    line-height: 25px;
+    font-size: 14.5px;
+}
+
+.sedan-btn {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(31, 77%, 52%);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  border: none;
+   
+}
+
+.suvs-btn {
+    background-color: hsl(0, 0%, 100%);
+  color: hsl(184, 100%, 22%);
+    font-weight: 400;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  border: none;
+}
+
+.luxury-btn {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+        border: none;
+}
+
+ .hovbtn:focus, .hovbtn:hover {
+  background-color: transparent;
+  border: 2px solid  hsla(0, 0%, 95%, 74%);
+  color: hsla(0, 0%, 95%, 80%);
+}
+
+.flex {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.box {
+  width: 300px;
+  height: 500px;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.sedans {
+background-color: hsl(31, 77%, 52%);
+ border-radius: 8px 0px 0px 8px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+.info {
+    background-color: white;
+    color: red; 
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .flex {
+    margin: 1rem auto;
+    min-width: 90%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+}
+
+  .inner-wrapper {
+    padding: 50px;
+}
+  
+  .btn {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+h2 {
+    font-size: 1.7rem;
+}
+  main {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+  
+  .flex {
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    width: 100% ;
+}
+    
+svg {
+    width: 80%;
+}
+    
+.box {
+  
+    width: 90% ;
+    height: auto;
+}
+
+  .inner-wrapper {
+    padding: 10px;
+}
+  .btn {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+}
